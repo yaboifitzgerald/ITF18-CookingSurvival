@@ -1,0 +1,43 @@
+#Cooking Code
+#Menu Items 
+def menu_function(): 
+  import random
+  reponse = random.randint(1,4)
+  NPC = random.randint(1,9)
+  if NPC == 1:
+    NPC = "Max"
+  elif NPC == 2:
+    NPC = "Tybalt"  
+  elif NPC == 3:
+    NPC = "Tamar"
+  elif NPC == 4:
+    NPC = "Dr. Heimz Doofemshmirtz"
+  elif NPC == 5:
+    NPC = "Hans"
+  elif NPC == 6:
+    NPC = "Jürgen"
+  elif NPC == 7:
+    NPC = "Marcellus"
+  elif NPC == 8:
+    NPC = "Cornelius"
+  elif NPC == 9:
+    NPC = "Sister Perkins"
+    
+  print("The menu items are Deep Fried Flesh, Fries, Zombie Burger and The Green Machine")
+  food = random.randint(1,4)
+  if food == 1:
+    food = "Deep Fried Flesh, which is $5.00"
+  elif food == 2:
+    food = "Fries, which is $3.00"
+  elif food == 3:
+    food = "The Zombie Burger, which is $6.00"
+  elif food == 4:
+    food = "The Green Machine, which is $4.00"
+
+  print(NPC, "has ordered", food)
+
+  
+  
+
+
+menu_function()
